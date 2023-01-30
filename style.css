@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background: #9ac4e6f0; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    border-bottom: solid;
+    border-bottom-color: #00000080;
+    font-size: 28px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+button {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10%;
+    border-color: grey;
+}
+.button{
+    background-color: blue;
+    color:wheat;
+    border: none;
+    padding:10px;
+
+}
+.search_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#city{    
+    padding: 10px;
+    background-color: #8080803d;
+    border: solid grey;
+    width:50%;
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 35px;
+    border-bottom: solid grey;
+    /* margin: 25px; */
+}
+.card-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-1{
+    width: 30%;
+    height: 490px;
+    margin-top: 17px;
+    border: solid;
+}
+.heading {
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+}
+.data ul {
+    margin-top: 65px;
+    padding: 10px;
+    list-style-type: none;
+}
+.data li {
+    padding: 10px;
+    font-size: 20px;
+}
+footer  {
+    margin-top: 20px;
+    text-align: center;
+    border-top: solid grey;
+}
+.A{
+    background-image: url("temp.jpg");
+    background-size: cover;
+}
+.B{
+    background-image: url("sun.jpg");
+    background-size: cover;
+}
+.C{
+    background-image: url("other.jpg");
+    background-size: cover;
+}
